@@ -10,13 +10,13 @@ export default function ListedHomes() {
         <Container>
             <HeaderFlex>
                 <h3>Listed Homes</h3>
-                <FilterMenu/>
             </HeaderFlex>
             <p style={{textAlign: 'center', maxWidth: '621px', margin: 'auto',}} >
                 Browse our listed properties and discover your perfect home. Whether you're searching for a cozy family home, 
                 a modern urban apartment, or a luxurious estate, our listings showcase an array of exceptional properties 
                 that are sure to capture your imagination.
             </p>
+            <FilterMenu style={{width: '30px', margin: 'auto'}}/>
             <MCard>
                 {info.map((item, index) => (
                     <Card>

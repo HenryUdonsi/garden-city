@@ -3,7 +3,8 @@ import { styled } from "styled-components";
 export const HeaderFlex = styled.div`
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    margin: auto;
+    justify-content: center;
     align-items: center;
     gap: 21vw;
 `

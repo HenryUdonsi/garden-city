@@ -12,7 +12,7 @@ const FilterMenu = () => {
 
   return (
     <div>
-    <Button onClick={toggleMenu} bg='#ececec' style={{color: '#667085'}}>{!showMenu ? ('Show filter') : ('Hide filter')}<img src= {Filter} style={{width: '13px'}}/></Button>
+    <Button onClick={toggleMenu} bg='#ececec' style={{color: '#667085', fontSize: '0.8rem', padding: '12px'}}>{!showMenu ? ('Show filter') : ('Hide filter')}<img src= {Filter} style={{width: '10px'}}/></Button>
       {showMenu && (
         <div className="filter-menu">
           <FilterFrame />

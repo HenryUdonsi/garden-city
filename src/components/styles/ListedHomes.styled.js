@@ -5,7 +5,7 @@ export const HeaderFlex = styled.div`
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    gap: 20rem;
+    gap: 21vw;
 `
 
 export const FilterFlex = styled.div`
